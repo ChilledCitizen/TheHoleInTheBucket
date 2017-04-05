@@ -18,6 +18,8 @@ public class Click : MonoBehaviour {
     public int interval2 = 10;
     public double persec = 0;
 
+    Upgrade uppi = new Upgrade();
+
 
 	// Update is called once per frame
 	void Update () {
@@ -29,6 +31,7 @@ public class Click : MonoBehaviour {
         {
 
             drops -= droprate;
+            drops += uppi.up1;
 
             nexttime += interval;
 
