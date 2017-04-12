@@ -17,10 +17,11 @@ public class Click : MonoBehaviour {
     public int snaketime = 0;
     public int interval2 = 10;
     public double persec = 0;
+    
 
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 
         dropDisplay.text = "Drops: " + drops;
         dropsPerSec.text = "Per Second: " + persec;
@@ -122,8 +123,7 @@ public class Click : MonoBehaviour {
         
     }
 
- 
-
+    
     
 
 }
